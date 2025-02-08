@@ -6,6 +6,15 @@
   prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
   color-scheme: light; /* color of browser-provided UI */
 
-  --color-primary: oklch(75.05% 0.1791 58.28);
-  --color- 
+  --color-primary: oklch(75.05% 0.1791 58.28); /*rustic orange */
+  --color-secondary: oklch(49.55% 0.0896 126.19); /* Deep Olive */
+  --color-accent: oklch(96.36% 0.0328 107); /* Soft Beige */
+  --color-base-100: oklch(96.36% 0.0328 107);
+  --color-base-200: oklch(87.96% 0.0525 96.51);
+  --color-base-300: oklch(77.86% 0.0626 98.33);
+  --color-base-content: oklch(32.11% 0 0);
+  --color-info: oklch(88.74% 0.0632555788581708 237.01768519042946);
+  --color-success: oklch(74.98% 0.1302 122.67);
+  --color-warning: oklch(84.9% 0.1223 79.34);
+  --color-error: oklch(65.43% 0.2341 34.2);
 }

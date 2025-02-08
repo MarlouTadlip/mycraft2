@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-secondary shadow-sm text-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,7 +20,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="flex px-2">
-            <Image src="/icon.png" alt="" height={40} width={40}/>
+            <Image src="/icon.png" alt="" height={40} width={40} color="bg-base-100"/>
             <a className="btn btn-ghost text-xl">MyCraft</a>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <a className="btn btn-ghost">🛒</a>
         </div>
     </div>
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-100 min-h-screen">
     <div className="hero-content flex-col lg:flex-row-reverse">
       <img
         src="hero.jpg"
